@@ -55,7 +55,6 @@ header::after {
 }
 
 .mywork li {
-  border: #000 solid 0.5em;
   margin: 0.5em;
   max-width: 20%;
   flex-wrap: wrap;
