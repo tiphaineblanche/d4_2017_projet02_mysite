@@ -1,0 +1,82 @@
+body {
+  background-color: #f2f2f2;
+  color: #cccccc;
+  margin: 0;
+}
+
+section {
+  max-width: 46em;
+  margin: 0 auto;
+}
+
+header {
+  background-color:#1e7b7b;
+  color:#eff5f5;
+  padding: 4em;
+  position: relative;
+}
+
+header::after {
+  content : " ";
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  background-color:#1e7b7b;
+
+}
+
+.nastyadvert{
+  background-color:#eff5f5;
+  background-image: url(glacier_4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  position: relative;
+}
+
+
+
+.mywork ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.mywork li {
+  border: #000 solid 0.5em;
+  margin: 0.5em;
+  max-width: 20%;
+  flex-wrap: wrap;
+}
+
+.mywork img {
+  width: 100%;
+}
+
+footer {
+  background-color:#1e7b7b;
+  color:#eff5f5;
+  padding: 2em;
+  position: relative;
+}
+
+
+.linklist {
+  list-style-type: none;
+}
+
+.linklist li {
+  margin : 12px;
+}

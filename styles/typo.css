@@ -1,0 +1,43 @@
+body{font-family: 'Roboto', sans-serif;}
+
+h1 {font-family: 'Raleway', sans-serif;}
+html {font-size: 4em;}
+
+body {
+  background-color: #eff5f5;
+  font-family: roboto;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #1e7b7b;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+.nastyadvert h1 {
+font-family: 'Lora', serif;
+text-align: center;
+color: white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateY(-50%) translateX(-50%);
+}
